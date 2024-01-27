@@ -2,7 +2,7 @@
 var scriptTag = document.currentScript;
 var parameter = scriptTag.getAttribute('data-parameter');
 
-var element = document.getElementsByClassName('getelement')
+var element = document.getElementByClassName('getelement')
 element.innerText = `This is the value passed as paramter ${parameter}`
 
 // Now you can use the 'parameter' variable in this script
